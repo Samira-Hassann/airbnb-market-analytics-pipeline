@@ -1,0 +1,11 @@
+USE master;
+GO
+
+CREATE DATABASE AirbnbDW;
+GO
+
+USE AirbnbDW;
+GO
+
+CREATE SCHEMA BRONZE;
+GO
