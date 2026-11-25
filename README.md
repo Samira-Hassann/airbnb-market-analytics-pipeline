@@ -153,6 +153,6 @@ Airbnb_scrapping_notebook.ipynb # Selenium scraper (Google Colab)
 ## 👤 Author
 
 **[Your Name]**
-🔗 [LinkedIn](https://www.linkedin.com/in/your-profile) · 💻 [GitHub](https://github.com/your-username)
+🔗 [Samira Hassan](https://www.linkedin.com/in/samira-hassan-00699a219) · 💻 [GitHub](https://github.com/Samira-Hassann)
 
 ⭐ If you found this project useful, consider giving the repo a star!
