@@ -74,16 +74,16 @@ Techniques used: JSON-LD parsing, embedded JSON search, regex fallbacks, explici
 The dashboard (`Airbnb Dashboard.pbix`) has four pages, each with City and Property Type (or Amenity) slicers.
 
 ### 1. Overview
-![Overview](dashboard_screans/page_1.png)
+![Overview](dashboard_screans/page%201.png)
 
 ### 2. Price Analysis
-![Price Analysis](dashboard_screans/page_2.png)
+![Price Analysis](dashboard_screans/page%202.png)
 
 ### 3. Ratings & Quality
-![Ratings & Quality](dashboard_screans/page_3.png)
+![Ratings & Quality](dashboard_screans/page%203.png)
 
 ### 4. Amenities
-![Amenities](dashboard_screans/page_4.png)
+![Amenities](dashboard_screans/page%204.png)
 
 ---
 
