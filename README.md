@@ -25,13 +25,13 @@ The project covers **500 listings across 10 European cities** (50 listings per c
 Airbnb Website
       │   (Selenium scraper, one CSV per city)
       ▼
-┌─────────────┐   ┌──────────────┐   ┌─────────────┐   ┌──────────────────────┐
-│   BRONZE    │ → │   STAGING    │ → │   SILVER    │ → │         GOLD         │
-│ raw city    │   │ UNION ALL of │   │ cleaned &   │   │ fact_listings        │
-│ tables (10) │   │ all cities + │   │ typed data, │   │ dim_amenity          │
-│             │   │ source_table │   │ amenities   │   │ bridge_listing_      │
-│             │   │              │   │ split out   │   │ amenity              │
-└─────────────┘   └──────────────┘   └─────────────┘   └──────────────────────┘
+┌─────────────┐   ┌──────────────┐   ┌─────────────┐   ┌────────────────────────┐
+│   BRONZE    │ → │   STAGING    │ → │   SILVER    │ → │         GOLD           │
+│ raw city    │   │ UNION ALL of │   │ cleaned &   │   │ fact_listings          │
+│ tables (10) │   │ all cities + │   │ typed data, │   │ dim_amenity            │
+│             │   │ source_table │   │ amenities   │   │ bridge_listing_amenity │
+│             │   │              │   │ split out   │   │                        │
+└─────────────┘   └──────────────┘   └─────────────┘   └────────────────────────┘
                                                                   │
                                                                   ▼
                                                         Power BI Dashboard
